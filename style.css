@@ -1,0 +1,88 @@
+/*general styles*/
+html, body {
+	height: 100%;
+	width: 100%;
+}
+/*Nav bar font white*/
+.navbar-default .navbar-fnt {
+    color: white;
+}
+
+/*padded section*/
+.pad-section {
+	padding: 5px;
+}
+.pad-section img {
+	width: 100%;
+}
+/*vertical-centered text*/
+.text-vcenter {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.homeFont {
+	color: white;
+}
+/* additional sections */
+#home {
+  background: url(background1.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 56px;
+}
+#about {
+  display: table;
+  position: relative;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+#youth {
+  background: url(background2.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*fixes white space*/
+.service2 {
+  overflow: hidden;
+}
+
+#service {
+	background-color: rgba(80,0,80, 0.9);
+	background-size: cover;	
+	color: white;
+	padding: 10px 5px 10px 5px;
+	padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#footer {
+	background-color: black;
+	text-align: center;
+	color: white;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	margin: 0 auto;
+	padding: 5px;
+}
